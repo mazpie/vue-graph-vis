@@ -1,6 +1,7 @@
+//@ts-ignore
 import GraphCanvas  from './lib/components/GraphCanvas.vue';
 
-import DefaultCommandManager from './lib/commands/DefaultCommandManager'
+import DefaultCommandManager from './lib/commands/DefaultCommandManager';
 
 import Node   from './lib/model/Node';
 import Edge   from './lib/model/Edge';

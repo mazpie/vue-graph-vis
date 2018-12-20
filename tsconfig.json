@@ -1,9 +1,12 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "target": "es2015",
+    "module": "commonjs",
+    "declaration": true,
+    "outDir": "lib",
     "strict": true,
     "jsx": "preserve",
+    "removeComments": true,
     "importHelpers": true,
     "moduleResolution": "node",
     "esModuleInterop": true,

@@ -52,7 +52,6 @@ interface CanvasProps
     html                ?: string;
     nodeType            ?: string;
     clusterTypes        ?: string[];
-    resizable           ?: boolean;
     imageSize           ?: {width: number, height: number};
 } 
 

@@ -2,8 +2,20 @@
 Example:
 
 let x = {
-    id: 'main',
-    level: 1
+    linkIn: {
+        max: 2, //default 0, means no limits
+        allowedNodeTypes: ["nodeType1"] // default ["*"], means all nodeTypes allowed
+    },
+    linkOut: {
+        max: 2, //default 0, means no limits
+        allowedNodeTypes: ["nodeType1"] // default ["*"], means all nodeTypes allowed
+    },
+    options: {
+        color : {
+            background: blue,
+            border: black
+        }
+    }
 }
 
 */

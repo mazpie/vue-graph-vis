@@ -27,6 +27,11 @@ export default interface Edge {
     widthConstraint     ?: number | boolean | { maximum: number;};
 }
 
+interface CanvasProps 
+{
+    html                ?: string;
+} 
+
 interface Color 
 {
     color               ?: string;
